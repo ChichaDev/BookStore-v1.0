@@ -5,7 +5,7 @@ import Header from "./Components/HeaderApp/Header";
 import CartPage from "./Components/Pages/CartPage";
 import BookPageDetails from "./Components/Pages/BookPageDetails";
 import "./styles/App.css";
-import "./styles/HeaderApp.css";
+import "./styles/HeaderApp.css"; 
 
 function App() {
   return (
