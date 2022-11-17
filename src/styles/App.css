@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  background-color: whitesmoke;
+  height: 4000px;
+}
+.App {
+  width: 500px;
+}
+
+
+
+  
+ 

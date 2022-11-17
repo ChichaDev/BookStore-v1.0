@@ -1,0 +1,27 @@
+.wraper {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 120px;
+}
+.titleBook {
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+.description {
+  text-align: left;
+  font-size: 20px;
+}
+.photo {
+  margin-left: -390px;
+  margin-right: 30px;
+  height: 400px;
+  width: 400px;
+  border: none;
+  border-radius: 70px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}

@@ -1,0 +1,30 @@
+.buttonCart {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fe5f1e;
+  text-decoration: none;
+  min-width: 110px;
+  height: 45px;
+  border: 1px solid #fe5f1e;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+}
+.button_svg {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+}
+.cartBlock {
+  border: 0.5rem solid white;
+  border-radius: 22px;
+  margin-left: 250px;
+}
+.cartBlock:hover {
+  opacity: 0.5;
+  transform: translateY(-2px);
+}

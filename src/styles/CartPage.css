@@ -1,0 +1,99 @@
+.container_cart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 100px;
+  height: 1000px;
+  width: 1000px;
+  margin-left: -100px;
+  flex-shrink: 1;
+}
+.content__title {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+.imgCart {
+  height: 40px;
+  width: 40px;
+  border-radius: 9px;
+  background-color: #EB5A1E;
+}
+.cart__top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart__item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 1;
+width: 700px;
+font-size: 20px;
+}
+.cart__item-count {
+display: flex;
+justify-content: space-between;
+padding: 5px;
+}
+.bookImg {
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+}
+.cart__bottom-details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 50px;
+  font-size: 22px;
+}
+.cart__bottom-buttons {
+margin-top: 50px;
+}
+.button-pay {
+display: flex;
+justify-content: flex-end;
+margin-top: -18px;
+}
+.revomeItembutton {
+ height: 30px;
+ width: 30px;
+ border: 1px solid #C0C0C0;
+ border-radius: 18px;
+ background-color: white;
+ cursor: pointer;
+}
+.revomeItembutton:hover {
+ background-color: black;
+}
+.cart__clear {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+.cart__clear:hover {
+  opacity: 0.5;
+}
+.go-back {
+  border: 1px solid gray;
+  padding: 15px;
+  text-decoration: none;
+  color: gray;
+  border-radius: 20px;
+  font-size: 22px;
+  transition: 0.2s;
+}
+.go-back:hover {
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+}
+.pay-button {
+  margin-left: 700px;
+  margin-top: -30px;
+}

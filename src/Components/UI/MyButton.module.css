@@ -1,0 +1,32 @@
+.myBtn {
+  height: 40px;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background: #fe5f1e;
+  color: black;
+  font-size: 16px;
+  border-radius: 30px;
+  outline: none;
+  transition: 0.2s;
+  margin-right: 5px;
+  color: white;
+  padding: 10px;
+}
+.myBtn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 0 darkgray;
+}
+.myBtn:active {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 0 darkgray;
+}
+
+
+  
+  
+  
+
+  

@@ -1,0 +1,15 @@
+.sort_label {
+  display: flex;
+  position: absolute;
+  margin-left: 670px;
+  margin-top: -90px;
+  align-items: center;
+  cursor: pointer;
+}
+.sort_popup {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin-left: 712px;
+  margin-top: -70px;
+}
